@@ -1,0 +1,8 @@
+/* class App 요소 */
+.App {
+    display: flex;          /* 1) display속성을 flex 적용 */
+    flex-direction: column; /* 2) 방향은 column기준 */
+    gap: 10px;              /* 3) element사이의 갭은 10px */
+    width: 500px;           /* 4) 가로 크기를 500px */
+    margin: 0 auto;         /* 5) 상하 좌우 margin은 0 auto */
+}
