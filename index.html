@@ -29,7 +29,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
           <div style="display: flex; justify-content: center; margin-top: 12px; position: relative; z-index: 10;">
-            <img src="./image/resume.PNG" style="width: 120px; border-radius: 0; border: 5px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Avatar">
+            <img src="./image/resume2.jpg" style="width: 120px; border-radius: 0; border: 5px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Avatar">
           </div>
         </div>
         <div class="w3-container w3-center w3-text-black" style="margin-top: 10px;">
@@ -83,23 +83,23 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Back Developer / hyejinworld / KO</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2026 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Currently mastering Full-Stack development with a focus on incorporating AI into the development lifecycle. I am further strengthening my technical stack by advancing my skills in DevOps practices</p>
+          <p>I am a Full-Stack Developer dedicated to building end-to-end applications while leveraging AI technologies to optimize solutions. I am also actively expanding my expertise in DevOps to streamline deployment and enhance infrastructure scalability.</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Software Engineer / hyejinworld </b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2020 - Dec 2024</h6>
-          <p>As a Software Engineer, I specialized in developing and tailoring framework functionalities to optimize performance and developer productivity.</p>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>My Project</b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 1 - Apr 1</h6>
-     <p>
-    <a href="./TodoList/ex01_TodoList.UI.html" class="w3-button w3-teal w3-round-small">TodoList</a>
-    <a href="./fruits_shop_temp/index.html" class="w3-button w3-teal w3-round-small">my fruits Shop</a>
-    <a href="./WS_03/index.html" class="w3-button w3-teal w3-round-small">KOSTA Bank</a>
-  </p><br>
+   <div class="link-container">
+    <a href="./TodoList/ex01_TodoList.UI.html" class="kosta-link">TodoList</a>
+    <a href="./fruits_shop_temp/index.html" class="kosta-link">Fruits Shop</a>
+    <a href="./WS_03/index.html" class="kosta-link">KOSTA Bank</a>
+</div>
         </div>
       </div>
 
@@ -144,5 +144,38 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
+<style>
+        /* 링크를 담을 컨테이너 스타일 */
+        .link-container {
+            margin: 20px;
+            display: flex;
+            gap: 20px; /* 링크 사이 간격 */
+        }
+
+        /* 공통 링크 스타일 정의 */
+        .kosta-link {
+            /* 직관적이고 깔끔한 폰트 적용 */
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #333; /* 글씨 색상 */
+            text-decoration: none; /* 기본 밑줄 제거 */
+            
+            /* 밑줄 스타일 (border-bottom 사용) */
+            border-bottom: 2px solid #009688; /* w3-teal 색상에 맞춘 밑줄 */
+            padding-bottom: 3px; /* 글씨와 밑줄 사이 간격 */
+            transition: all 0.3s ease; /* 마우스 호버 효과 부드럽게 */
+        }
+
+        /* 마우스를 올렸을 때 효과 */
+        .kosta-link:hover {
+            color: #fff; /* 글씨 색상을 흰색으로 */
+            background-color: #009688; /* 배경을 teal 색상으로 */
+            border-bottom: 2px solid #009688; /* 밑줄 굵기는 유지하거나 살짝 굵게 할 수 있음 */
+            border-radius: 4px; /* 살짝 둥글게 */
+            padding: 5px 10px; /* 상하좌우 여백 추가 */
+            margin: -5px -10px; /* padding 추가로 인한 위치 변화 보정 */
+        }
+    </style>
 </body>
 </html>

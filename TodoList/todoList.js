@@ -57,7 +57,7 @@ const initData = (printData) => {
 const onUpdate = (id) => {
     const todo = mockData.find(item => item.id === id); 
 }
-//버튼이벤트
+//버튼이벤트iu
 
 //name="delBtn" onclick="todoDel(this.id)" >삭제</button>
 
@@ -74,6 +74,7 @@ const newTodo = {
 };
 mockData.push(newTodo);
 initData(mockData);
+//initdata라고 왜 다시 초기화하는 함수를 만드는지->새로운 객체가 추가된 mockData를 화면에 다시 렌더링하기 위해서입니다. initData 함수는 주어진 데이터를 기반으로 화면에 할 일 목록을 렌더링하는 역할을 합니다. 새로운 할 일이 추가되면, 변경된 mockData를 화면에 반영하기 위해 initData 함수를 호출하여 업데이트된 목록을 보여주는 것입니다.
 }
 
 const todoDel =(th) =>{
